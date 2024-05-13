@@ -43,7 +43,6 @@ describe(`${User.name} Class`, () => {
     });
 
     it("when no middle name return just first and last", () => {
-      // model.middleName = ''; // This line might be commented out
       const result = model.fullName;
       expect(result).toBe(`${model.firstName} ${model.lastName}`);
     });
